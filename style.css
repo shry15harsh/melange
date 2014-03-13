@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    background:skyblue;
+}
+.nav{
+    background:white;
+    padding:5%;
+    text-align:center;
+}
+.content{
+    width:80%;
+    margin-left:10%;
+}
+.sidebar{
+    float:left;
+    width:16%;
+    display:inline-block;
+    background:orange;
+    padding:2%;
+}
+.sidebar li{
+    list-style-type:none;
+}
+.main{
+    background:white;
+    display:inline-block;   
+    width:70%;
+    padding:5%;
+}
+.how{
+    padding:1%;
+    background:whitesmoke;
+}
+.left{
+    width:60%;
+    float:left;
+    margin-top:2%;
+}
+.right{
+    width:36%;
+    float:left;
+    margin-left:4%;
+    margin-top:2%;
+}
+.box{
+    margin-bottom:25px;
+    padding:2%;
+}
+.box,.how{
+    border-radius:4px;
+    box-shadow:1px 1px 5px black;
+    background:rgba(200,200,200);
+}
+select{
+    width:100%;
+}
